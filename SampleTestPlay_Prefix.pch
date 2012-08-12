@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'SampleTestPlay' target in the 'SampleTestPlay' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "SampleTestPlayAppDelegate.h"
+#endif
